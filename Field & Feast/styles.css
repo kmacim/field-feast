@@ -75,7 +75,17 @@ body {
     
     
 }
-
+header{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    font-family:"Playfair Display" ;
+    font-size: 90px;
+    background-color: #1F2A44;
+    color:#FAF9F6;
+    padding-bottom: 10px;
+}
 /* Media Query (medium) */
 /* Media query (large) */
 /* Media Query (Xl) */
