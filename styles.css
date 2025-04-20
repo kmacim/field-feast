@@ -1,4 +1,3 @@
-/* Kevin Riley */
 /* -------------------- IMPORTED FONTS -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
@@ -70,7 +69,6 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 body {
     min-width: 428px;
-
     
     
     
@@ -86,6 +84,3 @@ h1{
     color:#FAF9F6;
     padding-bottom: 10px;
 }
-/* Media Query (medium) */
-/* Media query (large) */
-/* Media Query (Xl) */
