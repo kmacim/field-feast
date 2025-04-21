@@ -69,18 +69,64 @@ table {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 body {
     min-width: 428px;
-    
-    
+    line-height: 1.5;
+    background-color:#FAF9F6;
+    margin: 0 auto;
     
 }
-header{
+
+/* creates box and centers with background color for header */
+header {
     display:flex;
     flex-direction: column;
+    background-color: #1F2A44;
+    align-items: center;
 }
+/* applies font family,size,weight,color, and padding for h1 */
 h1{
     font-family:"Playfair Display" ;
-    font-size: 90px;
+    font-size: 50px;
+    font-weight: bold;
     background-color: #1F2A44;
     color:#FAF9F6;
     padding-bottom: 10px;
+}
+/* applies styling, color, size and padding for header*/
+header > p{
+    color:#FAF9F6;
+    padding: 20px;
+    font-style: italic;
+    font-size: small;
+  
+}
+
+/* creates box and applies color to about us*/
+nav ul{
+    display:flex;
+    background-color:#E5C185;
+    height:15px;    
+}
+/* create position for navigation for about us */
+#us {
+padding-top: 10px;
+margin-bottom: 10px;
+padding-bottom:10px;
+}
+
+/* create grid to position nav and font specs for about us*/
+#us > li{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
+   font-weight: bold;
+  
+}  
+/* create space with margin for main */
+main {
+    margin: 15px;
+
+}    
+h2{
+    font-size: 1.5em;
+
 }
