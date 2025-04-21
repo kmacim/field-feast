@@ -130,3 +130,6 @@ h2{
     font-size: 1.5em;
 
 }
+hr.new {
+    border: 1px solid #E5C185;
+}
