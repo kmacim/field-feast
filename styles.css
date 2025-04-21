@@ -130,6 +130,8 @@ h2{
     font-size: 1.5em;
 
 }
+
+/* adding divide line with color */
 hr.new {
     border: 1px solid #E5C185;
    
@@ -162,4 +164,28 @@ h3 {
     padding-left:10px;
 }
 
+/* creating borders and shadows for fiqures */
+figure{
+    display:flex;
+    flex-direction: column;
+}
+figure > img{
+    
+    margin-top: 10px;
+    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+figcaption{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:25px;
+    background-color: #FAF9F6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-style: solid;
+    box-shadow: 5px 5px 5px gray;
+    border-bottom-color: rgb(14, 8, 5);
+   
+}
 
