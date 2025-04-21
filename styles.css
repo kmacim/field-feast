@@ -132,4 +132,34 @@ h2{
 }
 hr.new {
     border: 1px solid #E5C185;
+   
 }
+
+/* create box for artisan, exclusive, and field */
+
+.xbox{
+   display:grid;
+   grid-template-columns: 1fr;
+   margin-top:10px;
+   margin-bottom: 8px;
+   font-size: .75em;
+   border-radius:5px;
+   background-color:#76885B;
+   color:#FAF9F6;
+   margin-left: 20px;
+   padding: 10px;
+}
+
+h3 {
+    color:#F8F4EC;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+   
+ #bas {
+    list-style-type: disc;
+    padding-left:10px;
+}
+
+
